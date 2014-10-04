@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  card_count: 1
+  multiverseid: 1
+  deck_id: 
+
+two:
+  card_count: 1
+  multiverseid: 1
+  deck_id: 

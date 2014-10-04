@@ -1,0 +1,87 @@
+body {
+  margin: 0px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+div.carousel {
+  float: left;
+  width: 900px;
+}
+
+div.card-sets {
+  width: 1100px;
+}
+
+div.card-types {
+  margin-left: 30px;
+}
+
+html {
+}
+
+div.card-placeholder {
+  float:left;
+}
+
+
+div#expansion-list {
+  float: right;
+  background-color: black;
+  width: 200px;
+}
+
+div#expansion-list div {
+  padding: 3px;
+  border-bottom: 1px solid white;
+  border-left: 1px solid white;
+}
+
+div#expansion-list div:hover {
+  background: white;
+  text-color: black;
+}
+
+div#expansion-list div {
+  text-align: center;
+
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
+
+.line {
+  fill: none;
+  stroke-width: 3px;
+  stroke: orange;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: red;
+}
+
+div.img {
+  position: fixed;
+  margin-left: 280px;
+  margin-top:100px;
+}
+
+div#player {
+  float:right;
+  width: 280px;
+}
