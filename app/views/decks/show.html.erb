@@ -1,18 +1,29 @@
 <script src="/assets/deck.js"></script>
-
-<div id='deck'>
-  <h1 deck-id=<%= @deck.id %> expansion=<%= @deck.expansion %>><%= @deck.name %></h1>
-  <div id='deck-cards'>
-    <ul>
-      
-    </ul>
+<div id='game'>
+  <div id='deck'>
+    <h1 deck-id=<%= @deck.id %> expansion=<%= @deck.expansion %>><%= @deck.name %></h1>
+    <div id='deck-cards'>
+      <ul>
+      </ul>
+    </div>
   </div>
-</div>
 
-<div id='player-one'>
+  <div id='player-one'>
+    <div class="deck"></div>
+    <div class="hand"></div>
+    <div class="graveyard"></div>
+  </div>
 
-</div>
+  <div id='player-two'>
+    <div class="deck"></div>
+    <div class="hand"></div>
+    <div class="graveyard"></div>
+  </div>
 
-<div id='player-two'>
-
+  <div id='control-panel'>
+    <div class="card-zoom">
+      <div class="img-zoom"></div>
+      <div class="card-text"></div>
+    </div>
+  </div>
 </div>
